@@ -2,6 +2,7 @@
     .header__topbar 
     {
         height: 100px;
+        padding-right: 0px;
     }
     .topbar__nav 
     {
@@ -91,6 +92,11 @@
         height: 100%;
         margin-bottom: 30px;
     }
+    .content .content__inner .inner__background img
+    {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
     .inner__nav li 
 {
     display: inline-block;
@@ -108,7 +114,7 @@
 .inner__padding 
 {
     padding: 0;
-    padding-right: 10px;
+    padding-right: 0px;
 }
 .inner__heading  
 {
