@@ -308,6 +308,10 @@
     margin-left: 8px;
     margin-top: 0px;
 }
+.img__background-news 
+{
+    height: 50%;
+}
 }
 @media (min-width:361px) and (max-width:500px){
     .content .content__inner 
@@ -374,7 +378,7 @@
 }
 .img__background-news 
 {
-    height: 70%;
+    height: 50%;
 }
 .list__news-heaidng
 {
