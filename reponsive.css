@@ -75,7 +75,7 @@
     }
     .content 
     {
-        height: 3200px;
+        height: 3080px;
     }
     .content .content__inner .inner__background  
     {
@@ -123,7 +123,7 @@
 }
 .inner__about  
 {
-    font-size: 16px;
+    font-size: 15px;
     line-height: 28px;
     margin-bottom: 30px;
 }
@@ -139,8 +139,100 @@
 {
     height: 400px;
 }
+.modal__content
+{
+   width: 100%;
 }
-@media (max-width:359px){
+.search__input 
+{
+    width: 70%;
+}
+.modal__search.open__2 
+{
+   display: flex;
+}
+.modal.open 
+{
+    display: flex;
+}
+.title__list 
+{
+   position: absolute;
+   left: 4%;
+}
+.content__news 
+{
+    height: 3500px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.trending__news 
+{
+    height: 1200px;
+}
+.treding__background-img 
+{
+    height: 350px;
+    margin-bottom: 30px;
+}
+.img__background-news p
+{
+    font-size: 15px;
+    
+}
+.img__background-news 
+{
+    height: 40%;
+}
+.lastest__news 
+{
+    margin-left: 0px;
+    margin-right: 0px;
+  
+}
+.list__news-heaidng
+{
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.list__about 
+{
+    margin-left: -40px;
+    margin-top: 10px;
+}
+.treding__background-img-2 
+{
+    height: 400px;
+}
+.join__us-heading 
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+.join__us-nav li 
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+.join__us-nav li  .plus 
+{
+   text-align: right;
+}
+.join__us-nav li 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.what__new-heading
+{
+    margin-top: 30px;
+}
+.join__us-heading 
+{
+    margin-top: 30px;
+}
+}
+@media (max-width:360px){
     .header__topbar 
     {
         height: 150px;
@@ -176,8 +268,48 @@
 {
     height: 200px;
 }
+.content
+{
+    height: 2300px;
 }
-@media (min-width:360px) and (max-width:500px){
+.modal__search.open__2 
+{
+   display: flex;
+}
+.modal.open 
+{
+    display: flex;
+}
+.title__list 
+{
+   position: absolute;
+   left: 10%;
+}
+.trending__news 
+{
+    height: 750px;
+}
+.treding__background-img 
+{
+    height: 200px;
+    margin-bottom: 30px;
+}
+.join__us-nav li  .plus 
+{
+    margin-left: 50px;
+}
+.list__news-heaidng
+{
+    margin-left: 8px;
+    margin-top: 0px;
+}
+.list__about 
+{
+    margin-left: 8px;
+    margin-top: 0px;
+}
+}
+@media (min-width:361px) and (max-width:500px){
     .content .content__inner 
     {
         height: 700px;
@@ -186,12 +318,78 @@
     {
         height: 300px;
     }
+    .content
+    {
+        height:2650px;
+    }
     .content .content__inner .inner__background  
     {
         width: 93%;
         height: 100%;
         margin-bottom: 30px;
     }
+    .title__list 
+{
+   position: absolute;
+   left: 7%;
+}
+
+.lastest__news 
+{
+    margin-left: 0px;
+    margin-right: 0px;
+    display: block;
+}
+.treding__background-img-2 
+{
+    height: 300px;
+}
+.join__us-heading 
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+.join__us-nav li 
+{
+    margin-left: 0;
+    margin-right: 0;
+}
+.join__us-nav li  .plus 
+{
+   text-align: right;
+}
+.join__us-nav li 
+{
+    display: flex;
+    justify-content: space-between;
+}
+.trending__news 
+{
+    height: 750px;
+}
+.treding__background-img 
+{
+    height: 200px;
+    margin-bottom: 30px;
+}
+.img__background-news 
+{
+    height: 70%;
+}
+.list__news-heaidng
+{
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.list__about 
+{
+    margin-left: 0px;
+    margin-top: 5px;
+}
+.what__new-heading
+{
+    margin-top: 30px;
+}
 }
 @media (min-width: 740px) and (max-width: 1024px) {
     .header 
@@ -228,7 +426,7 @@
     display: block;
 }
 .content{
-    height: 2000px;
+    height: 1650px;
 }
     .epxand__icon 
     {
@@ -282,6 +480,19 @@
 {
     margin-bottom: 40px;
 }
+.modal__search.open__2 
+{
+   display: flex;
+}
+.modal.open 
+{
+    display: flex;
+}
+.content__news 
+{
+    height: 2000px;
+}
+
 }
 @media (min-width: 1024px) and (max-width: 1239px) 
 {
@@ -318,5 +529,37 @@
     font-size: 16px;
     line-height: 28px;
     margin-bottom: 20px;
+}
+.title__list 
+{
+   position: absolute;
+   left: 13%;
+}
+.lastest__news 
+{
+    margin-left: 0px;
+}
+.lastest__news img 
+{
+    padding: 5px;
+   
+}
+.list__about  
+{
+    font-size: 10px;
+    margin-left: 15px;
+    line-height: 19px;
+}
+.list__news-heaidng 
+{
+    margin-left: 15px;
+}
+.treding__background-img-2 
+{
+    margin-bottom: 30px;
+}
+.join__us-nav li  .plus  
+{
+    margin-left: 90px;
 }
 }

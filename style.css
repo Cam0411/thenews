@@ -313,6 +313,30 @@
     overflow: hidden;
     transition: 0.4s;
     margin-bottom: 20px;
+   
+}
+.list__box
+{
+    position: relative;
+}
+.title__list 
+{
+    position: absolute;
+    top:3%;
+    left: 8%;
+    color: #fff;
+    background: #097bed;
+    padding: 5px 12px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.title__list-2
+{
+    background: #fa6600;
+}
+.title__list:hover 
+{
+    opacity: 0.7;
 }
 .list__box-background img 
 {
@@ -344,4 +368,377 @@
 .list__date i 
 {
     margin-right: 5px;
+}
+.modal
+{
+    position: fixed;
+    background: #0004;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0pc;
+    z-index: 9999;
+    display: none;
+}
+.modal__content
+{
+    width: 50%;
+    height: 100%;
+    background: #0b75e4;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: 0.2s fadeUp linear;
+}
+.modal__close 
+{
+    position: absolute;
+    top: 0;
+    right: 0;   
+}
+.modal__close i 
+{
+    color: #fff;
+    font-size: 30px;
+    padding: 10px 14px;
+    cursor: pointer;
+}
+.modal__nav li 
+{
+    list-style: none;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.modal__nav li a 
+{
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+    font-weight: 600;
+}
+
+.menu 
+{
+    cursor: pointer;
+}
+.modal__search 
+{
+    position: fixed;
+    background: #0004;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 999999;
+    display: none;
+    animation: 0.2s fadeUp2 linear;
+}
+
+.modal__content-search 
+{
+    width: 100%;
+    background: #000;
+    height: 100%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+}
+.search__close 
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #fff;
+    padding: 10px 14px;
+    font-size: 30px;
+    cursor: pointer;
+}
+@keyframes fadeUp {
+    from{
+        transform: translateX(-50%);
+        opacity: 0;
+    }to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+}
+.search__input 
+{
+    width: 50%;
+ 
+    display: flex;
+}
+.src 
+{
+    width: 89%;
+    padding: 10px 14px;
+    outline: none;
+}
+.search__input i 
+{
+    color: #fff;
+    padding: 12px 20px;
+    background: #0b75e4;
+    margin-left: -3px;
+}
+.search 
+{
+    cursor: pointer;
+}
+@keyframes fadeUp2 {
+    from{
+        opacity: 0;
+    }to{
+        opacity: 1;
+    }
+}
+.content__news 
+{
+    height: 900px;
+    padding: 75px 0px 50px 0px;
+}
+.content__news 
+{
+    overflow: hidden;
+}
+.trending__news 
+{
+    
+    height: 500px;
+    margin-right: 10px;
+}
+.trending__news img 
+{
+    width: 100%;
+}
+.what__news img 
+{
+    width: 100%;
+}
+.trending__news .treding__heading 
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.treding__background-img 
+{
+
+    position: relative;
+    margin-bottom: 10px;
+    cursor: pointer;
+    background-repeat: no-repeat;
+    height: 120px;
+    overflow: hidden;
+}
+
+.treding__background-img img
+{
+    transition: 0.4s;
+    height: 100%;
+}
+.treding__background-img img:hover
+{
+  transform: scale(1.1);
+}
+.img__background-news 
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 10px;
+    color: #fff;
+    background: linear-gradient(to top, rgba(32, 22, 84, 0.6) 52%, rgba(0, 0, 100, 0));
+    height: 70%;
+    padding: 20px;
+    width: 100%;
+    transition: 0.4s;
+}
+.img__background-news:hover 
+{
+    opacity: 0.9;
+}
+
+.img__background-news p
+{
+    margin-top: 10px;
+    font-size: 10px;
+    transition: 0.4s;
+}
+.img__background-news p i 
+{
+    margin-right: 5px;
+}
+.img__background-news p:nth-child(2):hover 
+{
+    color: #ffbe00;
+}
+.lastest__news 
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.lastest__heading 
+{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+.lastest__news img 
+{
+    width: 75px;
+    height: 63px;
+    padding: 4px;
+    margin-bottom: 15px;
+  
+}
+.list__news-heaidng 
+{
+    font-size: 10px;
+    margin-bottom: 5px;
+     margin-top: 7px;
+     padding-left: 5px;
+}
+.list__about 
+{
+    color: #201654;
+    font-size: 14px;
+    line-height: 21px;
+    transition: 0.4s;
+    cursor: pointer;
+    margin-top: -1px;
+    padding-left: 5px;
+    font-weight: 700;
+}
+.list__about:hover 
+{
+    color: #55acee;
+}
+.what__news 
+{
+   
+    margin-right: 10px;
+}
+.what__new-heading 
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.treding__background-img-2 
+{
+   height: 166px;
+   margin-bottom: 35px;
+}
+.what__news-nav li 
+{
+    list-style: none;
+    display: inline-block;
+    margin-bottom: 25px;
+    padding: 5px 10px 5px 10px;
+    color: #201654;
+    font-size: 10px;
+}
+.what__news-nav li.tech__box 
+{
+    background: #097bed;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    transition: 0.4s;
+}
+.what__news-nav li.tech__box:hover 
+{
+    opacity: 0.8;
+}
+.what__news-title 
+{
+    color: #201654;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.what__news-about
+{
+    font-size: 15px;
+ 
+    margin-bottom: 20px;
+    line-height: 25px;
+}
+.join__us-heading 
+{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.join__us-heading 
+{
+    margin-left: 10px;
+}
+.join__us-nav li 
+{
+    display: flex;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    border-bottom: 2px solid #888;
+    padding-bottom: 10px;
+}
+.join__us-nav li .social
+{
+    margin-right: 5px;
+    width:30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #3b5998;
+    color: #fff;
+
+    border-radius: 50%;
+}
+
+.join__us-nav li .twitter 
+{
+    background: #55acee;
+}
+.join__us-nav li .youtube
+{
+    background: #d42428;
+}
+.join__us-nav li .instas 
+{
+    background: #6c27b3;
+}
+.join__us-nav li .google__plus 
+{
+    background: #dc4e41;
+}
+.join__us-nav li  .join__time
+{
+    font-size: 12px;
+    margin-top: 7px;
+    font-weight: 700;
+    margin-left:  6px;
+}
+.join__us-nav li  .join__emo 
+{
+    font-size: 12px;
+    margin-top: 7px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.join__us-nav li  .plus 
+{
+    font-size: 12px;
+    margin-top: 7px;
+    margin-left: 150px;
+    color: #201654;
+}
+.join__us-nav .border__none
+{
+    border-bottom: none;
+}
+.join__us  img 
+{
+    width:100%;
 }
