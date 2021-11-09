@@ -496,7 +496,10 @@
 }
 @media (min-width: 1024px) and (max-width: 1239px) 
 {
-    
+    .content
+    {
+        height: 900px;
+    }
     .content .content__inner 
     {
         height: 400px;
