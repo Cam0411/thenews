@@ -497,7 +497,7 @@
 }
 .content__news 
 {
-    height: 550px;
+    height: 650px;
     padding: 75px 0px 50px 0px;
 }
 .content__news 
@@ -507,7 +507,7 @@
 .trending__news 
 {
     
-    height: 600px;
+    height: 500px;
     margin-right: 10px;
 }
 .trending__news img 
