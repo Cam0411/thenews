@@ -497,7 +497,7 @@
 }
 .content__news 
 {
-    height: 650px;
+    height: 550px;
     padding: 75px 0px 50px 0px;
 }
 .content__news 
@@ -507,7 +507,7 @@
 .trending__news 
 {
     
-    height: 500px;
+    height: 600px;
     margin-right: 10px;
 }
 .trending__news img 
@@ -876,7 +876,7 @@
 }
 .content__news-box
 {
-    height: 1000px;
+    height: 600px;
      padding: 75px 10px 50px 10px;
      overflow: hidden;
 }
@@ -955,4 +955,127 @@
 .title__list-6
 {
     background: #7530ff;
+}
+.footer 
+{
+    height: 400px;
+    background: #102950;
+    padding: 75px 10px 50px 10px;
+    overflow: hidden;
+}
+.footer__heading
+{
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.footer__about 
+{
+    margin-right: 12px;
+    padding-left: 5px;
+}
+.footer__about-2
+{
+    color: #ffffffcc;
+    line-height: 25px;
+    font-size: 14px;
+}
+.footer__list
+{
+    margin-left: 10px;
+}
+.footer__heading-2
+{
+    font-size: 14px;
+    border:1px solid #393e75;;
+    color: #ffffffcc;
+    margin-right: -2px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 5px 5px 5px 0px;
+}
+.footer__contacts 
+{
+    margin-left: 40px;
+}
+.footer__nav li 
+{
+    list-style: none;
+    color: #ffffffcc;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.footer__nav li i 
+{
+    margin-right: 10px;
+}
+.footer .footer__img 
+{
+   width: 80px;
+   height: 70px;
+   margin-right: 10px;
+   margin-bottom: 10px;
+}
+.list__news-heading-2
+{
+    font-size: 14px;
+    color: #ffffffcc;
+    margin-left: 15px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+.list__news-heading-3
+{
+    font-size: 14px;
+    color: #ffffffcc;
+    margin-left: 15px;
+    line-height: 20px;
+}
+.footer__popular-news
+{
+    padding-right: 10px;
+}
+.to__top 
+{
+    position: fixed;
+    bottom: 2%;
+    right: 2%;
+    background: #558aff;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    font-size: 20px;
+    cursor: pointer;
+    display: none;
+}
+.to__top a
+{
+    color: #fff ;
+}
+.to__top.active 
+{
+    display: block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: fadeup linear 0.4s;
+    animation: 0.4s fadeIN ease-in-out;
+}
+.to__top.active:hover 
+{
+    background: #1d4674;
+}
+@keyframes fadeIN {
+    from{
+        opacity: 0;
+    }to 
+    {
+        opacity: 1;
+    }
 }

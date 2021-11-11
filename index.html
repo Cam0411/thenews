@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="reponsive.css">
     <link rel="stylesheet" href="grid.css">
-
+ 
 </head>
 <body>
-    <div class="header">
+    <div id="header__link"></div>
+    <div class="header" >
         <div class="header__topbar">
             <div class="grid wide">
                 <div class="row">
@@ -531,8 +532,103 @@
               </div>
           </div>
     </div>
-    <div class="footer"></div>
+    <div class="footer">
+        <div class="grid wide">
+            <div class="row">
+                <div class="col l-3 m-6 c-12">
+                    <div class="footer__about">
+                    <p class="footer__heading">About Us</p>
+                    <p class="footer__about-2">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.</p>
+                    <ul class="topbar__icon footer__icon">
+                        <li><i class="fab fa-facebook-f"></i></li>
+                        <li><i class="twitter fab fa-twitter"></i></li>
+                        <li><i class="youtube fab fa-youtube"></i></li>
+                        <li><i class="instas  fab fa-instagram"></i></li>
+                        <li><i class="google__plus  fab fa-google-plus-g"></i></li>
+                    </ul>
+                </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
 
+                  <h1 class="footer__heading">TAGS</h1>
+                  <div class="footer__list">
+                  <div class="grid">
+                      <div class="row">
+                          <div class="col l-3 m-3 c-3 none__padding">
+                             <p class="footer__heading-2">Video</p>
+                          </div>
+                          <div class="col l-3 m-3 c-3 ">
+                           <p class="footer__heading-2">Apps</p>
+                        </div>
+                        <div class="col l-3 m-3 c-3">
+                           <p class="footer__heading-2">Food</p>
+                        </div>
+                        <div class="col l-3 m-3 c-3">
+                           <p class="footer__heading-2">Game</p>
+                        </div>
+                        <div class="col l-4 m-4 c-4 none__padding-2">
+                           <p class="footer__heading-2">Phone</p>
+                        </div>
+                        <div class="col l-4 m-4 c-4 none__padding-2">
+                           <p class="footer__heading-2">Apps</p>
+                      </div>
+                      <div class="col l-4 m-4  c-4 none__padding-2">
+                       <p class="footer__heading-2">Work</p>
+                      </div>
+                      <div class="col l-4 m-4  c-4  none__padding-2">
+                       <p class="footer__heading-2">Food</p>
+                      </div>  
+                      <div class="col l-4 m-4  c-4 none__padding-2">
+                       <p class="footer__heading-2">Game</p>
+                    </div>
+                    <div class="col l-4 m-4  c-4 none__padding-2">
+                       <p class="footer__heading-2">Flim</p>
+                    </div>
+                    <div class="col l-4 m-4  c-4 none__padding-2">
+                       <p class="footer__heading-2">Apps</p>
+                    </div>
+                      </div>
+                  </div>
+                  </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                    <div class="footer__contacts">
+                  <p class="footer__heading">Contacts</p>
+                  <ul class="footer__nav">
+                      <li><i class="fa fa-map-marker"></i>829 Cabell Avenue Arlington</li>
+                      <li><i class="fa fa-phone"></i>+088 012121240</li>
+                  </ul>
+                </div>
+                </div>
+                <div class="col l-3 m-6 c-12">
+                   <div class="footer__popular-news">
+                       <p class="footer__heading">popular news</p>
+                       <div class="list__news ">
+                        <div class="grid">
+                            <div class="row">
+                                <div class="col l-3 m-3 c-3">
+                                     <img class="footer__img" src="asset/last.png" alt="" srcset="">
+                                </div>
+                                <div class="col l-9 m-9 c-9">
+                                    <p class="list__news-heading-2"><i class="fas fa-clock"></i> 08, 22,2018</p>
+                                     <p class="list__news-heading-3">Himachal Pradesh rules in order to allow tourists </p>
+                                </div>
+                                <div class="col l-3 m-3 c-3">
+                                    <img class="footer__img" src="asset/lsst2.png" alt="" srcset="">
+                                </div>
+                                <div class="col l-9 m-9 c-9">
+                                    <p class=" list__news-heading-2"><i class="fas fa-clock"></i> 08, 22,2018</p>
+                                    <p class="list__news-heading-3">Himachal Pradesh rules in order to allow tourists</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                   </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#header__link"> <div class="to__top">  <i class="fas fa-chevron-up"></i> </div> </a>
     <div class="modal">
         <div class="modal__content">
             <div class="modal__close">
@@ -602,5 +698,42 @@
             }
                 modalClose2.addEventListener("click",hideModal2)
         </script>
+        <script>
+            toTop = document.querySelector(".to__top")
+            window.addEventListener("scroll",() =>{
+                if (window.pageYOffset > 100){
+                    toTop.classList.add("active")
+                }else {
+                    toTop.classList.remove("active")
+                }
+            })
+        </script>
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <script>
+         $(document).ready(function(){
+           // Add smooth scrolling to all links
+           $("a").on('click', function(event) {
+         
+             // Make sure this.hash has a value before overriding default behavior
+             if (this.hash !== "") {
+               // Prevent default anchor click behavior
+               event.preventDefault();
+         
+               // Store hash
+               var hash = this.hash;
+         
+               // Using jQuery's animate() method to add smooth page scroll
+               // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+               $('html, body').animate({
+                 scrollTop: $(hash).offset().top
+               }, 800, function(){
+         
+                 // Add hash (#) to URL when done scrolling (default click behavior)
+                 window.location.hash = hash;
+               });
+             } // End if
+           });
+         });
+         </script>
 </body>
 </html>
